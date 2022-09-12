@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+
+.testimonial {
+  width: 100%;
+  height: 100vh;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 90%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 3rem;
+}
+
+.container {
+  margin: auto;
+}
+.container .card {
+  width: 350px;
+  background-color: white;
+  padding-bottom: 2rem;
+  border-radius: 1rem;
+}
+.container .card .card-img {
+  width: 100%;
+}
+.container .card .card-img img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+.container .card-content {
+  text-align: center;
+  padding-left: 0.5rem;
+}
+.container .card-content h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: left;
+  padding: 1rem 0;
+  border-bottom: 1px solid gray;
+}
+.container .card-content p {
+  font-size: 18px;
+  color: gray;
+  margin: 1rem 0;
+  text-align: left;
+  margin-top: 5px;
+  line-height: 2rem;
+}
+.container .card-content button {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  background-color: #29e6cc;
+  color: white;
+  cursor: pointer;
+  transition: 0.1s all ease;
+  font-weight: 600;
+}
+.container .card-content button:hover {
+  background-color: rgb(17, 201, 161);
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=slicer.css.map */
